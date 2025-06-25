@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+ 
+    height: 100%;
+    width: 100%;
+    
+}
+
+.biggest-parent-div{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.first-parent-div-for-box{
+    
+    width: 35%;
+    background-color: #e5e6fa;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 5px red;
+    position: relative;
+    
+}
+.first-div-for-colorful-box{
+
+    height: 40%; 
+    /* position: relative; */
+
+   background: linear-gradient(to bottom, 
+  blue 0%, 
+  purple 50%, 
+  red 100%);
+
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 3px solid rgba(255, 0, 0, 0.226);
+  
+}
+
+.div-for-first-image{
+
+    position: absolute;
+    top: 5px;
+
+    img{
+
+        height: 415px;
+    }
+}
+.div-for-second-image{
+
+    position: absolute;
+    top: 60px;
+    left: 360px;
+
+    img{
+       
+        height: 290px;
+
+    }
+}
+.div-for-spiderman-home{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 30px;
+
+    img{
+
+        height: 68px;
+        width: 80px;
+        /* display: flex;justify-content: center; */
+        align-items: center;
+    }
+    p{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    }
+}
+.div-for-witness-ready{
+    p{
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.parent-div-for-ticketcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 10px 0px 16px;
+}
+.div-for-content-of-spiderman{
+    p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.4;
+    }
+}
+.spidey-web-div{
+    height: 20px;
+    width: 19%;
+}
+.parent-div-for-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 44px;
+
+    button{
+
+        padding: 12px 14px;
+        background-color: #FE0000;
+        font-size: 18px;
+        font-weight: 900;
+        color: #ffdfc0;
+        background-image: url('black_spider.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px #3b1917;  
+    }
+}
